@@ -1287,9 +1287,10 @@ video{
     margin:0 10px;
 }
 .thinker-image{
-    width:100%;
+    width:90%;      /*--default 100%--*/
     overflow:hidden;
     position:relative;
+	border-radius: 50%;  /*--added to make thinkers circle--*/
 }
 .thinker-image .overlay{
     background: rgbA(116, 165, 52,.75);
